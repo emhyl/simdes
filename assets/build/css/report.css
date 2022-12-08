@@ -1,0 +1,84 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Times New Roman'
+}
+
+body{
+    padding:0.59in 1in 1in 1in;
+}
+.header{
+    /* margin-top:0.2in; */
+    text-align: center;
+    position: relative;
+}
+.header .logo_kop{
+    position:absolute;
+    top :5;
+    left: -10;
+    height:87.36px;
+    width:87.36px;
+
+}
+.header .logo_kop img{
+    width : 100%;
+    height : 100%;
+}
+.header h1{
+    font-size: 14pt;
+    /* font-family: 'Times New Roman', Times, serif; */
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    line-height:25px;
+    /* word-spacing:20px; */
+}
+.header span{
+    font-style: italic;
+    margin-bottom: 5px;
+    display: block;
+    font-size: 12pt;
+}
+hr{
+    background-color:black;
+    height:1px;
+    
+}
+.title{
+
+}
+.title #title{
+    text-align:center;
+    font-weight:bold;
+    text-decoration:underline;
+    margin-bottom:1.15pt;
+}
+.title #nomor_surat{
+    text-align:center;
+}
+#isi{
+    box-sizing:border-box;
+    padding-left:35px;
+    
+}
+#poin{
+    text-align:justify;
+    font-size:12pt;
+}
+#isi #tbl_attr{
+    width:150px;
+    vertical-align: top;
+}
+#footer{
+    text-indent: 0.39in;
+}
+.box_ttd{
+    
+}
+#ttd{
+    display: inline-block;
+    text-align: center;
+    float: right;
+}
+#ttd #name_ttd{
+    text-decoration: underline;
+    font-weight: bold;
+}
